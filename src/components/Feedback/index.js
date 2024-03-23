@@ -10,7 +10,7 @@ class Feedback extends Component {
 
  onClickEmoji = () => this.setState({isFeedbackSelected: true})
 
- renderFeedbackQuestion() => {
+ renderFeedbackQuestion = () => {
     const {resources} = this.props;
     const {emojis} = resources
 
